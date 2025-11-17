@@ -1,0 +1,85 @@
+  <routes>
+    <!-- Vehicle Types -->
+
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="4.5" maxSpeed="16.67"/>
+    <vType id="bus" accel="1.2" decel="3.5" sigma="0.6" length="12.0" maxSpeed="13.89"/>
+    <vType id="truck" accel="1.0" decel="3.0" sigma="0.6" length="14.0" maxSpeed="13.89"/>
+    <vType id="rv" accel="1.5" decel="3.5" sigma="0.6" length="6.0" maxSpeed="13.89"/>
+
+    <!-- ===================== BARKA ===================== -->
+<!-- Inner Lane -->
+<flow id="barka_pc_straight_inner" type="car" from="20910676#0" to="20910676#1" begin="0" end="3600" number="679" departLane="2"/>
+<flow id="barka_pc_left_inner" type="car" from="20910676#0" to="20910676#2" begin="0" end="3600" number="102" departLane="2"/>
+<flow id="barka_pc_uturn_inner" type="car" from="20910676#0" to="20910676#3" begin="0" end="3600" number="141" departLane="2"/>
+<flow id="barka_truck_straight_inner" type="truck" from="20910676#0" to="20910676#1" begin="0" end="3600" number="2" departLane="2"/>
+<flow id="barka_truck_uturn_inner" type="truck" from="20910676#0" to="20910676#3" begin="0" end="3600" number="5" departLane="2"/>
+<flow id="barka_bus_left_inner" type="bus" from="20910676#0" to="20910676#2" begin="0" end="3600" number="1" departLane="2"/>
+<flow id="barka_bus_uturn_inner" type="bus" from="20910676#0" to="20910676#3" begin="0" end="3600" number="15" departLane="2"/>
+
+<!-- Middle Lane -->
+<flow id="barka_pc_straight_mid" type="car" from="20910676#0" to="20910676#1" begin="0" end="3600" number="921" departLane="1"/>
+<flow id="barka_pc_left_mid" type="car" from="20910676#0" to="20910676#2" begin="0" end="3600" number="7" departLane="1"/>
+<flow id="barka_truck_straight_mid" type="truck" from="20910676#0" to="20910676#1" begin="0" end="3600" number="92" departLane="1"/>
+<flow id="barka_bus_straight_mid" type="bus" from="20910676#0" to="20910676#1" begin="0" end="3600" number="76" departLane="1"/>
+
+<!-- Outer Lane -->
+<flow id="barka_pc_straight_outer" type="car" from="20910676#0" to="20910676#1" begin="0" end="3600" number="538" departLane="0"/>
+<flow id="barka_pc_right_outer" type="car" from="20910676#0" to="1432212744#0" begin="0" end="3600" number="23" departLane="0"/>
+<flow id="barka_truck_straight_outer" type="truck" from="20910676#0" to="20910676#1" begin="0" end="3600" number="92" departLane="0"/>
+<flow id="barka_bus_straight_outer" type="bus" from="20910676#0" to="20910676#1" begin="0" end="3600" number="21" departLane="0"/>
+<flow id="barka_bus_right_outer" type="bus" from="20910676#0" to="1432212744#0" begin="0" end="3600" number="1" departLane="0"/>
+
+
+<!-- ===================== MUSCAT ===================== -->
+<!-- Inner Lane -->
+<flow id="muscat_pc_straight_inner" type="car" from="20910676#4" to="20910676#1" begin="0" end="3600" number="286" departLane="2"/>
+<flow id="muscat_pc_left_inner" type="car" from="20910676#4" to="20910676#2" begin="0" end="3600" number="120" departLane="2"/>
+<flow id="muscat_pc_uturn_inner" type="car" from="20910676#4" to="20910676#3" begin="0" end="3600" number="132" departLane="2"/>
+<flow id="muscat_truck_left_inner" type="truck" from="20910676#4" to="20910676#2" begin="0" end="3600" number="3" departLane="2"/>
+<flow id="muscat_truck_uturn_inner" type="truck" from="20910676#4" to="20910676#3" begin="0" end="3600" number="5" departLane="2"/>
+<flow id="muscat_bus_straight_inner" type="bus" from="20910676#4" to="20910676#1" begin="0" end="3600" number="10" departLane="2"/>
+<flow id="muscat_bus_left_inner" type="bus" from="20910676#4" to="20910676#2" begin="0" end="3600" number="20" departLane="2"/>
+<flow id="muscat_bus_uturn_inner" type="bus" from="20910676#4" to="20910676#3" begin="0" end="3600" number="27" departLane="2"/>
+
+<!-- Middle Lane -->
+<flow id="muscat_pc_straight_mid" type="car" from="20910676#4" to="20910676#1" begin="0" end="3600" number="644" departLane="1"/>
+<flow id="muscat_pc_left_mid" type="car" from="20910676#4" to="20910676#2" begin="0" end="3600" number="8" departLane="1"/>
+<flow id="muscat_truck_left_mid" type="truck" from="20910676#4" to="20910676#2" begin="0" end="3600" number="3" departLane="1"/>
+<flow id="muscat_truck_uturn_mid" type="truck" from="20910676#4" to="20910676#3" begin="0" end="3600" number="5" departLane="1"/>
+<flow id="muscat_bus_straight_mid" type="bus" from="20910676#4" to="20910676#1" begin="0" end="3600" number="55" departLane="1"/>
+<flow id="muscat_bus_left_mid" type="bus" from="20910676#4" to="20910676#2" begin="0" end="3600" number="5" departLane="1"/>
+<flow id="muscat_rv_straight_mid" type="rv" from="20910676#4" to="20910676#1" begin="0" end="3600" number="22" departLane="1"/>
+
+<!-- Outer Lane -->
+<flow id="muscat_pc_straight_outer" type="car" from="20910676#4" to="20910676#1" begin="0" end="3600" number="365" departLane="0"/>
+<flow id="muscat_pc_right_outer" type="car" from="20910676#4" to="1432212744#0" begin="0" end="3600" number="102" departLane="0"/>
+<flow id="muscat_truck_straight_outer" type="truck" from="20910676#4" to="20910676#1" begin="0" end="3600" number="29" departLane="0"/>
+<flow id="muscat_bus_straight_outer" type="bus" from="20910676#4" to="20910676#1" begin="0" end="3600" number="35" departLane="0"/>
+<flow id="muscat_bus_right_outer" type="bus" from="20910676#4" to="1432212744#0" begin="0" end="3600" number="9" departLane="0"/>
+<flow id="muscat_rv_straight_outer" type="rv" from="20910676#4" to="20910676#1" begin="0" end="3600" number="1" departLane="0"/>
+
+
+<!-- ===================== MABELLA ===================== -->
+<!-- Single Lane (departLane="2") -->
+<flow id="mabella_pc_straight" type="car" from="20910676#5" to="20910676#1" begin="0" end="3600" number="16" departLane="2"/>
+<flow id="mabella_pc_left" type="car" from="20910676#5" to="20910676#2" begin="0" end="3600" number="44" departLane="2"/>
+<flow id="mabella_truck_straight" type="truck" from="20910676#5" to="20910676#1" begin="0" end="3600" number="29" departLane="2"/>
+<flow id="mabella_truck_left" type="truck" from="20910676#5" to="20910676#2" begin="0" end="3600" number="2" departLane="2"/>
+<flow id="mabella_bus_straight" type="bus" from="20910676#5" to="20910676#1" begin="0" end="3600" number="1" departLane="2"/>
+<flow id="mabella_bus_left" type="bus" from="20910676#5" to="20910676#2" begin="0" end="3600" number="6" departLane="2"/>
+
+
+<!-- ===================== PALACE ===================== -->
+<!-- Inner Lane -->
+<flow id="palace_pc_straight_inner" type="car" from="39450217.13" to="20910676#4" begin="0" end="3600" number="5" departLane="2"/>
+<flow id="palace_pc_left_inner" type="car" from="39450217.13" to="20910676#5" begin="0" end="3600" number="26" departLane="2"/>
+<flow id="palace_bus_straight_inner" type="bus" from="39450217.13" to="20910676#4" begin="0" end="3600" number="1" departLane="2"/>
+<flow id="palace_bus_left_inner" type="bus" from="39450217.13" to="20910676#5" begin="0" end="3600" number="2" departLane="2"/>
+
+<!-- Outer Lane -->
+<flow id="palace_pc_straight_outer" type="car" from="39450217.13" to="20910676#4" begin="0" end="3600" number="6" departLane="0"/>
+<flow id="palace_pc_right_outer" type="car" from="39450217.13" to="1432212744#0" begin="0" end="3600" number="19" departLane="0"/>
+<flow id="palace_bus_straight_outer" type="bus" from="39450217.13" to="20910676#4" begin="0" end="3600" number="1" departLane="0"/>
+<flow id="palace_bus_right_outer" type="bus" from="39450217.13" to="1432212744#0" begin="0" end="3600" number="4" departLane="0"/>
+</routes>
+
