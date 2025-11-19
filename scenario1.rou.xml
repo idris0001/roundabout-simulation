@@ -1,0 +1,115 @@
+  <routes>
+    <!-- Vehicle Types -->
+
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="4.5" maxSpeed="16.67"/>
+    <vType id="bus" accel="1.2" decel="3.5" sigma="0.6" length="12.0" maxSpeed="13.89"/>
+    <vType id="truck" accel="1.0" decel="3.0" sigma="0.6" length="14.0" maxSpeed="13.89"/>
+    <vType id="rv" accel="1.5" decel="3.5" sigma="0.6" length="6.0" maxSpeed="13.89"/>
+
+    <!-- ===================== BARKA CAR ===================== -->
+
+<flow id="barka_pc_straight" type="car" from="14465423#1.76" to="20911568" begin="0" end="3600" number="2138" departLane="2"/>
+<flow id="barka_pc_left" type="car" from="14465423#1.76" to="1432212744#0" begin="0" end="3600" number="109" departLane="2"/>
+<flow id="barka_pc_uturn" type="car" from="14465423#1.76" to="162437609#0" begin="0" end="3600" number="141" departLane="2"/>
+<flow id="barka_pc_right" type="car" from="14465423#1.76" to="39450216" begin="0" end="3600" number="23" departLane="2"/>
+
+ <!-- ===================== BARKA TRUCK ===================== -->
+<flow id="barka_truck_straight" type="truck" from="14465423#1.76" to="20911568" begin="0" end="3600" number="186" departLane="2"/>
+<flow id="barka_truck_left" type="truck" from="14465423#1.76" to="1432212744#0" begin="0" end="3600" number="0" departLane="2"/>
+<flow id="barka_truck_uturn" type="truck" from="14465423#1.76" to="162437609#0" begin="0" end="3600" number="5" departLane="2"/>
+<flow id="barka_truck_right" type="truck" from="14465423#1.76" to="39450216" begin="0" end="3600" number="0" departLane="2"/>
+
+
+ <!-- ===================== BARKA BUS ===================== -->
+<flow id="barka_bus_straight" type="bus" from="14465423#1.76" to="20911568" begin="0" end="3600" number="97" departLane="2"/>
+<flow id="barka_bus_left" type="bus" from="14465423#1.76" to="1432212744#0" begin="0" end="3600" number="1" departLane="2"/>
+<flow id="barka_bus_uturn" type="bus" from="14465423#1.76" to="162437609#0" begin="0" end="3600" number="15" departLane="2"/>
+<flow id="barka_bus_right" type="bus" from="14465423#1.76" to="39450216" begin="0" end="3600" number="1" departLane="2"/>
+
+<!-- ===================== BARKA RV ===================== -->
+<flow id="barka_rv_straight" type="rv" from="14465423#1.76" to="20911568" begin="0" end="3600" number="0" departLane="2"/>
+<flow id="barka_rv_left" type="rv" from="14465423#1.76" to="1432212744#0" begin="0" end="3600" number="0" departLane="2"/>
+<flow id="barka_rv_uturn" type="rv" from="14465423#1.76" to="162437609#0" begin="0" end="3600" number="0" departLane="2"/>
+<flow id="barka_rv_right" type="rv" from="14465423#1.76" to="39450216" begin="0" end="3600" number="0" departLane="2"/>
+
+
+
+    <!-- ===================== MUSCAT CAR ===================== -->
+
+<flow id="muscat_pc_straight" type="car" from="20910781#1.199" to="162437609#0" begin="0" end="3600" number="1295" departLane="2"/>
+<flow id="muscat_pc_left" type="car" from="20910781#1.199" to="39450216" begin="0" end="3600" number="128" departLane="2"/>
+<flow id="muscat_pc_uturn" type="car" from="20910781#1.199" to="20911568" begin="0" end="3600" number="132" departLane="2"/>
+<flow id="muscat_pc_right" type="car" from="20910781#1.199" to="1432212744#0" begin="0" end="3600" number="102" departLane="2"/>
+
+ <!-- ===================== MUSCAT TRUCK ===================== -->
+
+<flow id="muscat_truck_straight" type="truck" from="20910781#1.199" to="162437609#0" begin="0" end="3600" number="29" departLane="2"/>
+<flow id="muscat_truck_left" type="truck" from="20910781#1.199" to="39450216" begin="0" end="3600" number="6" departLane="2"/>
+<flow id="muscat_truck_uturn" type="truck" from="20910781#1.199" to="20911568" begin="0" end="3600" number="10" departLane="2"/>
+<flow id="muscat_truck_right" type="truck" from="20910781#1.199" to="1432212744#0" begin="0" end="3600" number="0" departLane="2"/>
+
+ <!-- ===================== MUSCAT BUS ===================== -->
+
+<flow id="muscat_bus_straight" type="bus" from="20910781#1.199" to="162437609#0" begin="0" end="3600" number="100" departLane="2"/>
+<flow id="muscat_bus_left" type="bus" from="20910781#1.199" to="39450216" begin="0" end="3600" number="34" departLane="2"/>
+<flow id="muscat_bus_uturn" type="bus" from="20910781#1.199" to="20911568" begin="0" end="3600" number="27" departLane="2"/>
+<flow id="muscat_bus_right" type="bus" from="20910781#1.199" to="1432212744#0" begin="0" end="3600" number="9" departLane="2"/>
+
+ <!-- ===================== MUSCAT RV ===================== -->
+
+<flow id="muscat_rv_straight" type="rv" from="20910781#1.199" to="162437609#0" begin="0" end="3600" number="0" departLane="2"/>
+<flow id="muscat_rv_left" type="rv" from="20910781#1.199" to="39450216" begin="0" end="3600" number="0" departLane="2"/>
+<flow id="muscat_rv_uturn" type="rv" from="20910781#1.199" to="20911568" begin="0" end="3600" number="0" departLane="2"/>
+<flow id="muscat_rv_right" type="rv" from="20910781#1.199" to="1432212744#0" begin="0" end="3600" number="0" departLane="2"/>
+
+
+
+<!-- ===================== MAABILAH CAR ===================== -->
+
+<flow id="maabilah_pc_straight" type="car" from="39450217.13" to="1432212744#0" begin="0" end="3600" number="16" departLane="0"/>
+<flow id="maabilah_pc_left" type="car" from="39450217.13" to="162437609#0" begin="0" end="3600" number="44" departLane="0"/>
+<flow id="maabilah_pc_uturn" type="car" from="39450217.13" to="39450216" begin="0" end="3600" number="0" departLane="0"/>
+<flow id="maabilah_pc_right" type="car" from="39450217.13" to="20911568" begin="0" end="3600" number="0" departLane="0"/>
+
+<!-- ===================== MAABILAH TRUCK ===================== -->
+
+<flow id="maabilah_truck_straight" type="truck" from="39450217.13" to="1432212744#0" begin="0" end="3600" number="0" departLane="0"/>
+<flow id="maabilah_truck_left" type="truck" from="39450217.13" to="162437609#0" begin="0" end="3600" number="2" departLane="0"/>
+<flow id="maabilah_truck_uturn" type="truck" from="39450217.13" to="39450216" begin="0" end="3600" number="0" departLane="0"/>
+<flow id="maabilah_truck_right" type="truck" from="39450217.13" to="20911568" begin="0" end="3600" number="0" departLane="0"/>
+
+
+ <!-- ===================== MAABILAH BUS ===================== -->
+
+<flow id="maabilah_bus_straight" type="bus" from="39450217.13" to="1432212744#0" begin="0" end="3600" number="1" departLane="0"/>
+<flow id="maabilah_bus_left" type="bus" from="39450217.13" to="162437609#0" begin="0" end="3600" number="6" departLane="0"/>
+<flow id="maabilah_bus_uturn" type="bus" from="39450217.13" to="39450216" begin="0" end="3600" number="0" departLane="0"/>
+<flow id="maabilah_bus_right" type="bus" from="39450217.13" to="20911568" begin="0" end="3600" number="0" departLane="0"/>
+
+
+ <!-- ===================== MAABILAH RV ===================== -->
+
+<flow id="maabilah_rv_straight" type="rv" from="39450217.13" to="1432212744#0" begin="0" end="3600" number="0" departLane="0"/>
+<flow id="maabilah_rv_left" type="rv" from="39450217.13" to="162437609#0" begin="0" end="3600" number="0" departLane="0"/>
+<flow id="maabilah_rv_uturn" type="rv" from="39450217.13" to="39450216" begin="0" end="3600" number="0" departLane="0"/>
+<flow id="maabilah_rv_right" type="rv" from="39450217.13" to="20911568" begin="0" end="3600" number="0" departLane="0"/>
+
+
+
+<!-- ===================== PALACE ===================== -->
+
+<flow id="palace_pc_straight" type="car" from="39412251#1.78" to="39450216" begin="0" end="3600" number="11" departLane="0"/>
+<flow id="palace_pc_left" type="car" from="39412251#1.78" to="20911568" begin="0" end="3600" number="26" departLane="0"/>
+<flow id="palace_pc_uturn" type="car" from="39412251#1.78" to="1432212744#0" begin="0" end="3600" number="0" departLane="0"/>
+<flow id="palace_pc_right" type="car" from="39412251#1.78" to="162437609#0" begin="0" end="3600" number="19" departLane="0"/>
+
+
+<output>
+        <tripinfo-output value="tripinfo.xml"/>
+        <summary-output value="summary.xml"/>
+    </output>
+
+
+
+</routes>
+
